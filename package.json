@@ -1,0 +1,24 @@
+{
+  "name": "pc-web-remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/styles/output.css",
+    "start": "node server.js",
+    "dev": "npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "basic-auth-connect": "^1.0.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
